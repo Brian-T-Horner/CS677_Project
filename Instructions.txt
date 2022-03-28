@@ -1,0 +1,14 @@
+Instructions on how to run the project code:
+
+In order to run the mean_tire_predictor the following csv files must be included:
+	Pirelli_Tyre_Categories.csv
+	tyre_strategy_clusters.csv
+	Weather_SafetyCar.csv
+
+These are included in the project by default. If you wish to adapt the program to additional years, first the css files must include those years. Secondly under the predictor function the X_test and X_train boolean value must be changed to the correct year.
+
+In order to run the program by default with no changes, the following packages must be installed:
+	pandas
+	sklearn
+
+If these are installed. Please proceed to run the code as one would a normal program.
